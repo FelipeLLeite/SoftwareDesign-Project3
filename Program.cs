@@ -2,16 +2,19 @@
 
 namespace Assi3
 {
-    class StateContext {
+    class StateContext
+    {
         private Form form;
 
-        public void Run(Form form) {
+        public void Run(Form form)
+        {
             this.form = form;
 
             // Set your State here & run it
         }
 
-        public Form GetForm() {
+        public Form GetForm()
+        {
             return form;
         }
     }
@@ -60,7 +63,7 @@ namespace Assi3
                 )
             );
             */
-
+            System.Console.WriteLine("test");
             new StateContext().Run(form);
         }
     }

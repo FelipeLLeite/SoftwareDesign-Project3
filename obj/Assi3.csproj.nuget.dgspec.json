@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\fanshawe\\Summer 2019\\INFO3137\\Assi3Starter\\Assi3.csproj": {}
+    "C:\\codes\\C#\\INFO3137-sdp\\Project3\\Assi3.csproj": {}
   },
   "projects": {
-    "C:\\fanshawe\\Summer 2019\\INFO3137\\Assi3Starter\\Assi3.csproj": {
+    "C:\\codes\\C#\\INFO3137-sdp\\Project3\\Assi3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\fanshawe\\Summer 2019\\INFO3137\\Assi3Starter\\Assi3.csproj",
+        "projectUniqueName": "C:\\codes\\C#\\INFO3137-sdp\\Project3\\Assi3.csproj",
         "projectName": "Assi3",
-        "projectPath": "C:\\fanshawe\\Summer 2019\\INFO3137\\Assi3Starter\\Assi3.csproj",
-        "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
-        "outputPath": "C:\\fanshawe\\Summer 2019\\INFO3137\\Assi3Starter\\obj\\",
+        "projectPath": "C:\\codes\\C#\\INFO3137-sdp\\Project3\\Assi3.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\codes\\C#\\INFO3137-sdp\\Project3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kyle\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,20 +37,24 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
