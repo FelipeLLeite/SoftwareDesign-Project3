@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assi3
+namespace proj3
 {
     class StateContext
     {
@@ -11,6 +11,7 @@ namespace Assi3
             this.form = form;
 
             // Set your State here & run it
+
         }
 
         public Form GetForm()
@@ -63,7 +64,6 @@ namespace Assi3
                 )
             );
             */
-            System.Console.WriteLine("test");
             new StateContext().Run(form);
         }
     }
