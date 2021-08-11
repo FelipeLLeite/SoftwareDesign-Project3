@@ -1,0 +1,16 @@
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.exe
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.deps.json
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.runtimeconfig.json
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.runtimeconfig.dev.json
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.dll
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\ref\Assi3.dll
+C:\codes\C#\INFO3137-sdp\Project3\bin\Debug\net5.0\Assi3.pdb
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.csproj.AssemblyReference.cache
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.GeneratedMSBuildEditorConfig.editorconfig
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.AssemblyInfoInputs.cache
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.AssemblyInfo.cs
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.csproj.CoreCompileInputs.cache
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.dll
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\ref\Assi3.dll
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.pdb
+C:\codes\C#\INFO3137-sdp\Project3\obj\Debug\net5.0\Assi3.genruntimeconfig.cache
