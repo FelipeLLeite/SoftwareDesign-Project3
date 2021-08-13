@@ -1,6 +1,6 @@
-using proj3.Classes;
+using Assi3.Classes;
 
-namespace proj3.Validators
+namespace Assi3.Validators
 {
     class MinLengthValidator : FormComponent
     {

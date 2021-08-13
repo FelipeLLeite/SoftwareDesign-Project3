@@ -1,4 +1,4 @@
-namespace proj3.Interfaces
+namespace Assi3.Interfaces
 {
     public interface IState
     {

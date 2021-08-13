@@ -1,7 +1,7 @@
 using System;
-using proj3.Interfaces;
+using Assi3.Interfaces;
 
-namespace proj3.States
+namespace Assi3.States
 {
     public class FormDoneState : IState
     {
@@ -16,10 +16,10 @@ namespace proj3.States
 
         public void Run()
         {
-            Console.WriteLine($"{Environment.NewLine}Type print to print the form, or exit to leave.{Environment.NewLine}");
+            Console.WriteLine($"{Environment.NewLine}Type \"print\" to print the form, or \"exit\" to leave.{Environment.NewLine}");
             // reset the state option
             _stateOption = "";
-            while (_stateOption.ToLower().Equals("exit"))
+            while (!_stateOption.ToLower().Equals("exit"))
             {
                 Console.Write("> ");
                 _stateOption = Console.ReadLine();

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace proj3.Classes
+namespace Assi3.Classes
 {
     public class Form
     {

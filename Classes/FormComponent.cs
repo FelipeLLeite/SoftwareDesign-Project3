@@ -1,4 +1,4 @@
-namespace proj3.Classes
+namespace Assi3.Classes
 {
     public class FormComponent
     {
@@ -36,4 +36,4 @@ namespace proj3.Classes
             return true;
         }
     } // end FormComponent class
-} // end namespace proj3.Classes
+} // end namespace Assi3.Classes

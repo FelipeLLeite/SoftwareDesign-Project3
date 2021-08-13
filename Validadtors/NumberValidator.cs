@@ -1,6 +1,6 @@
-using proj3.Classes;
+using Assi3.Classes;
 
-namespace proj3.Validators
+namespace Assi3.Validators
 {
     class NumberValidator : FormComponent
     {
@@ -13,6 +13,8 @@ namespace proj3.Validators
         {
             int result;
             if (!int.TryParse(GetValue(), out result))
+                return false;
+            if (result < 0)
                 return false;
             return _component.IsValid();
         }

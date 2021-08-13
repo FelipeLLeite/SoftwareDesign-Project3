@@ -1,10 +1,9 @@
-﻿using proj3.Classes;
-using proj3.States;
-using proj3.Validators;
+﻿using Assi3.Classes;
+using Assi3.States;
+using Assi3.Validators;
 
-namespace proj3
+namespace Assi3
 {
-
     class Program
     {
         static void Main(string[] args)

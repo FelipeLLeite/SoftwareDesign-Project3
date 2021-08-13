@@ -1,7 +1,7 @@
 using System;
-using proj3.Interfaces;
+using Assi3.Interfaces;
 
-namespace proj3.States
+namespace Assi3.States
 {
     public class FormInputState : IState
     {
@@ -12,12 +12,13 @@ namespace proj3.States
         public FormInputState(StateContext context)
         {
             _context = context;
-            // _input = new Stack<string>();
+            _stateOption = "";
             _input = "";
         }
 
         public void Run()
         {
+            Console.Clear();
             Console.WriteLine("Welcome to the Form.");
             for (int i = 0; i < _context.GetForm().GetComponents().Count; i++)
             {
@@ -34,10 +35,10 @@ namespace proj3.States
             Console.WriteLine($"{Environment.NewLine}You're done! To confirm, here's what you wrote:{Environment.NewLine}");
             Console.WriteLine(_context.GetForm().Print());
             Console.WriteLine("Type \"reset\" to reset, or \"ok\" to proceed");
-            while (!_stateOption.ToLower().Equals("ok") || !_stateOption.ToLower().Equals("reset"))
+            while (!_stateOption.ToLower().Equals("ok") && !_stateOption.ToLower().Equals("reset"))
             {
                 Console.Write("> ");
-                _input = Console.ReadLine();
+                _stateOption = Console.ReadLine();
             }
             if (_stateOption.ToLower().Equals("reset"))
                 Run();
@@ -45,4 +46,4 @@ namespace proj3.States
                 _context.SetState(new FormDoneState(_context));
         } // end run method
     } // end FormInputState class
-} // end namespace proj3.States
+} // end namespace Assi3.States

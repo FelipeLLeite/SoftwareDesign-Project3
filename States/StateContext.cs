@@ -1,7 +1,7 @@
-using proj3.Classes;
-using proj3.Interfaces;
+using Assi3.Classes;
+using Assi3.Interfaces;
 
-namespace proj3.States
+namespace Assi3.States
 {
     public class StateContext
     {

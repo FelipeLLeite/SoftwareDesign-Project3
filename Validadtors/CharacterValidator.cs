@@ -1,6 +1,6 @@
-using proj3.Classes;
+using Assi3.Classes;
 
-namespace proj3.Validators
+namespace Assi3.Validators
 {
     public class CharacterValidator : FormComponent
     {
@@ -19,4 +19,4 @@ namespace proj3.Validators
             return _component.IsValid();
         } // end IsValid override method
     } // end CharacterValidator class
-} // end namespace proj3.Validators
+} // end namespace Assi3.Validators

@@ -1,4 +1,4 @@
-namespace proj3.Classes
+namespace Assi3.Classes
 {
     class TextBox : FormComponent
     {
