@@ -27,6 +27,6 @@ namespace Assi3.States
                 if (_stateOption.ToLower().Equals("print"))
                     Console.WriteLine(_context.GetForm().Print());
             }
-        }
+        } // end
     } // end class
 } // end namespace
