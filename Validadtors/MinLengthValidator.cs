@@ -1,21 +1,22 @@
-namespace proj3
+using proj3.Classes;
+
+namespace proj3.Validators
 {
-    public class MinLengthValidator : ValidatorDecorator
+    class MinLengthValidator : FormComponent
     {
-        private int _length;
-        public MinLengthValidator(IDecorator decorator, int length) : base(decorator)
+        private int _minLength;
+
+        public MinLengthValidator(FormComponent component, int minLength) : base(component.GetName())
         {
-            _length = length;
+            _minLength = minLength;
+            _component = component;
         }
 
-        public override void ErrorMessage()
+        public override bool IsValid()
         {
-            throw new System.NotImplementedException();
-        }
-
-        public override bool HandleInput()
-        {
-            throw new System.NotImplementedException();
+            if (GetValue().Length < _minLength)
+                return false;
+            return _component.IsValid();
         }
     }
 }

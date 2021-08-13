@@ -1,23 +1,31 @@
 using System;
 using System.Collections.Generic;
 
-namespace proj3
+namespace proj3.Classes
 {
     public class Form
     {
-        private State _state;
-        private ValidatorDecorator _validator;
-
+        private List<FormComponent> _components;
         public Form()
         {
-            ChangeState(new FormInput(this));
-        } // end ctor
-
-
-        public void ChangeState(State newState)
+            _components = new List<FormComponent>();
+        }
+        public void AddComponent(FormComponent component)
         {
-            _state = newState;
-        } // end ChangeState method
+            _components.Add(component);
+        }
 
+        public List<FormComponent> GetComponents()
+        {
+            return _components;
+        }
+
+        public string Print()
+        {
+            string result = "";
+            for (int i = 0; i < _components.Count; i++)
+                result += $"{ _components[i].GetName()}: {_components[i].GetValue()}{Environment.NewLine}";
+            return result;
+        } // end Print method
     } // end Form class
 } // end namespace
